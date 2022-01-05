@@ -1,0 +1,58 @@
+.contents{
+   width: 80%;
+   height: 70%;
+   box-sizing: border-box;
+   position: relative;
+   top: 10%;
+   margin: auto;
+   padding: 10px;
+   color: #24373d;
+   background: rgb(3,108,94);
+   background: linear-gradient(90deg, rgba(3, 150, 130, 0.7) 0%, rgba(2, 172, 149, 0.7) 35%, rgba(0,223,192,0.7) 100%);
+   border-radius: 3px;
+}
+
+.experience,
+.projects{
+   background: rgba(255, 255, 255, 0.568);
+   border-radius: 3px;
+   padding: 5px;
+   text-align: center;
+}
+
+.experience{
+   height: 35%;
+   margin: 10px;
+}
+.table-content{
+   margin-top: 7px;
+   display: flex;
+}
+
+.table-content div p{
+   padding: 5px;
+}
+
+.projects{
+   height: 60%;
+   margin: 10px;
+}
+
+.projects-details{
+   margin-top: 5px;
+}
+
+.project-heading{
+   text-align: left;
+   padding-left: 3px;
+}
+
+.projects-details p{
+   margin-top: 5px;
+}
+
+.projects-details a{
+   text-decoration: none;
+   color: #1B2E35;
+   font-weight: 700;
+}

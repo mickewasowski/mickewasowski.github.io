@@ -1,0 +1,90 @@
+.contacts-container{
+   width: 80%;
+   height: 40%;
+   box-sizing: border-box;
+   position: relative;
+   top: 10%;
+   margin: auto;
+   padding: 10px;
+   display: flex;
+   justify-content: space-around;
+   background: rgb(3,108,94);
+   background: linear-gradient(90deg, rgba(3, 150, 130, 0.7) 0%, rgba(2, 172, 149, 0.7) 35%, rgba(0,223,192,0.7) 100%);
+   border-radius: 3px;
+}
+
+.card{
+   width: 50%;
+   height: 90%;
+   margin:auto;
+   margin-top: 10px;
+   margin-right: 2px;
+   text-align: center;
+   color: #385A64;
+   border-radius: 3px;
+   background-color: rgba(255, 255, 255, 0.322);
+}
+
+.heading{
+   margin-bottom: 10px;
+}
+
+#linkedinLink{
+   text-decoration: none;
+   font-weight: bold;
+   color: #385A64;
+}
+
+.email-form{
+   display: flex;
+   flex-direction: column;
+}
+
+/* .email-form div{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 10px 0;
+} */
+
+/* .email-form div label{
+   align-self:flex-start;
+   padding-left: 20px;
+} */
+
+/* .email-form div input{
+   width: 80%;
+   border-radius: 5px;
+   border:none;
+   background-color: rgba(255, 255, 255, 0.479);
+} */
+
+.email-form input{
+   width: 80%;
+   margin: 10px;
+   align-self: center;
+   border-radius: 5px;
+   border:none;
+   background-color: rgba(255, 255, 255, 0.479);
+}
+
+#messageContent{
+   height: 100px;
+   width: 80%;
+   align-self: center;
+   border-radius: 5px;
+   border:none;
+   background-color: rgba(255, 255, 255, 0.479);
+}
+
+input[type="submit"]{
+   position: relative;
+   top: 25px;
+   width: 85px;
+   padding: 5px;
+   text-align: center;
+   align-self: center;
+   border: none;
+   border-radius: 5px;
+   background-color: rgba(8,156,134, 0.8);
+}
