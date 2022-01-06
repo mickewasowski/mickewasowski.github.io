@@ -23,6 +23,8 @@ body{
 }
 
 .navbar{
+   overflow: hidden;
+   z-index: 2;
     position: fixed;
     top: 0;
     width: 100%;
@@ -281,4 +283,76 @@ input[type="submit"]{
 .thankyou > div h1,
 .thankyou > div h4{
    margin: 10px 0;
+}
+
+/* tablets */
+@media (max-width: 900px){
+   body{
+      overflow-x: scroll;
+      min-width: 375px;
+      font-size: x-large;
+      box-sizing: border-box;
+   }
+
+   .navigation li{
+      width: 90px;
+   }
+
+   .navigation li a{
+      font-size:xx-large;
+      width: 30px;
+   }
+
+   .navigation span{
+      display: none;
+   }
+
+   .homepage{
+      height: 230px;
+   }
+
+   .home-contents{
+      height: 190px;
+   }
+
+   .contacts-container{
+      width: 100%;
+      height: 1400px;
+   }
+
+   .contacts{
+      flex-direction: column;
+   }
+
+   .card{
+      margin:auto;
+      width: 90%;
+   }
+
+   .linkedin{
+      height: 300px;
+      margin-bottom: 20px;
+   }
+
+   .email{
+      height: 50%;
+   }
+
+   .about-contents{
+      width: 100%;
+      height: 1150px;
+   }
+
+   .table-content{
+      flex-direction: column;
+   }
+
+   .projects{
+      height: 60%;
+   }
+}
+
+/* phones */
+@media (max-width: 375px){
+
 }
