@@ -19,6 +19,7 @@ body{
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
+    font-size: larger;
 }
 
 .navbar{
@@ -37,7 +38,7 @@ body{
     color: #385A64;
     display: inline-block;
     padding: 5px;
-    font-size:medium;
+    font-size:larger;
     font-weight: bold;
 }
 
@@ -64,6 +65,7 @@ body{
 
 .navigation li a{
     color: #385A64;
+    font-size: larger;
 }
 
 /* home page info */
@@ -75,8 +77,8 @@ body{
 .homepage{
     position: relative;
     top: 20%;
-    width: 70%;
-    height: 15%;
+    width: 600px;
+    height: 170px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -89,20 +91,26 @@ body{
 }
 
 .home-contents{
+   height: 120px;
     padding: 10px;
     border-radius: 3px;
     background-color: rgba(255, 255, 255, 0.644);
 }
 
+.home-contents h3,
+.home-contents p{
+   margin: 5px 0;
+}
+
 .homepage > div > div p{
     font-weight: 550;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 /* contact me */
 .contacts-container{
-   width: 90%;
-   height: 60%;
+   width: 1600px;
+   height: 600px;
    box-sizing: border-box;
    position: relative;
    top: 10%;
@@ -148,25 +156,6 @@ body{
    flex-direction: column;
 }
 
-/* .email-form div{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   margin: 10px 0;
-} */
-
-/* .email-form div label{
-   align-self:flex-start;
-   padding-left: 20px;
-} */
-
-/* .email-form div input{
-   width: 80%;
-   border-radius: 5px;
-   border:none;
-   background-color: rgba(255, 255, 255, 0.479);
-} */
-
 .email-form input{
    width: 80%;
    margin: 10px;
@@ -174,6 +163,11 @@ body{
    border-radius: 5px;
    border:none;
    background-color: rgba(255, 255, 255, 0.479);
+   font-size: large;
+}
+
+.email-form textarea{
+   font-size: large;
 }
 
 #messageContent{
@@ -188,7 +182,7 @@ body{
 input[type="submit"]{
    position: relative;
    top: 25px;
-   width: 85px;
+   width: 140px;
    padding: 5px;
    text-align: center;
    align-self: center;
@@ -199,8 +193,8 @@ input[type="submit"]{
 
 /* about page */
 .about-contents{
-   width: 80%;
-   height: 55%;
+   width: 1400px;
+   height: 600px;
    box-sizing: border-box;
    position: relative;
    top: 10%;
@@ -235,12 +229,16 @@ input[type="submit"]{
 }
 
 .projects{
-   height: 60%;
+   height: 360px;
    margin: 10px;
 }
 
 .projects-details{
    margin-top: 5px;
+}
+
+.project2{
+   margin-top: 25px;
 }
 
 .project-heading{
@@ -260,8 +258,8 @@ input[type="submit"]{
 
 /* thank you */
 .thankyou{
-   width: 50%;
-   height: 15%;
+   width: 600px;
+   height: 150px;
    box-sizing: border-box;
    position: relative;
    top: 10%;
