@@ -257,3 +257,27 @@ input[type="submit"]{
    color: #1B2E35;
    font-weight: 700;
 }
+
+/* thank you */
+.thankyou{
+   width: 50%;
+   height: 15%;
+   box-sizing: border-box;
+   position: relative;
+   top: 10%;
+   margin: auto;
+   padding: 10px;
+   color: #24373d;
+   background: rgb(3,108,94);
+   background: linear-gradient(90deg, rgba(3, 150, 130, 0.7) 0%, rgba(2, 172, 149, 0.7) 35%, rgba(0,223,192,0.7) 100%);
+   border-radius: 3px;
+}
+
+.thankyou div{
+   text-align: center;
+}
+
+.thankyou > div h1,
+.thankyou > div h4{
+   margin: 10px 0;
+}
