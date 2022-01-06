@@ -294,6 +294,12 @@ input[type="submit"]{
       box-sizing: border-box;
    }
 
+   .navbar{
+      background: linear-gradient(
+90deg
+, rgb(4, 128, 111) 0%, rgba(0,156,134,1) 35%, rgba(0,223,192,1) 100%);
+   }
+
    .navigation li{
       width: 90px;
    }
