@@ -315,11 +315,11 @@ input[type="submit"]{
 
    .homepage{
       width: 100%;
-      height: 230px;
+      height: auto;
    }
 
    .home-contents{
-      height: 190px;
+      height: auto;
    }
 
    .contacts-container{
@@ -337,17 +337,17 @@ input[type="submit"]{
    }
 
    .linkedin{
-      height: 300px;
+      /* height: 300px; */
       margin-bottom: 20px;
    }
 
    .email{
-      height: 50%;
+      height: 55%;
    }
 
    .about-contents{
       width: 100%;
-      height: 1150px;
+      height: auto;
    }
 
    .table-content{
@@ -357,19 +357,23 @@ input[type="submit"]{
    .projects{
       height: 60%;
    }
+
+   .email-form input[type="submit"]{
+      top: 0;
+   }
 }
 
 /* phones */
 @media (max-width: 425px){
    body{
       overflow-x: scroll;
-      min-width: 375px;
+      min-width: 320px;
       font-size: x-large;
       box-sizing: border-box;
    }
 
    .navigation li{
-      width: 35%;
+      width: 32%;
    }
 
    .navigation li a{
@@ -400,14 +404,19 @@ input[type="submit"]{
 
    .card{
       width: 95%;
+      height: auto;
    }
 
    .linkedin{
-      height: 40%;
+      /* height: 40%; */
    }
 
    .email-form input,
    #messageContent{
       width: 90%;
+   }
+
+   .email-form input[type="submit"]{
+      top: 0;
    }
 }
