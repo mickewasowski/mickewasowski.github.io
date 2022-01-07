@@ -362,6 +362,11 @@ input[type="submit"]{
    .email-form input[type="submit"]{
       top: 0;
    }
+
+   .thankyou{
+      width: 100%;
+      height: auto;
+   }
 }
 
 /* phones */
@@ -419,5 +424,11 @@ input[type="submit"]{
 
    .email-form input[type="submit"]{
       top: 0;
+   }
+
+   .thankyou{
+      top: 12%;
+      width: 100%;
+      height: auto;
    }
 }
